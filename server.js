@@ -1,7 +1,7 @@
 const express = require('express');
 const { MongoClient } = require('mongodb');
 const app = express();
-const uri = "mongodb+srv://<username>:<password>@<cluster>.mongodb.net/iot_db?retryWrites=true&w=majority";
+const uri = "mongodb+srv://bijghavaneanjal23:LemXQf2fHs33SJB1@cluster0.drxvtlc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Middleware to parse JSON
 app.use(express.json());
